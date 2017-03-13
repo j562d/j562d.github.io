@@ -1,234 +1,223 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
 
-<head>
+<html>
+	<head>
+		<title>Jimmy Dong</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+		<!-- Header -->
+			<div id="header">
 
-    <title>Jimmy Dong</title>
+				<div class="top">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar1.jpg" alt="" /></span>
+							<h1 id="title">Jimmy Dong</h1>
+							<p>Web Developer</p>
+						</div>
 
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+								Prologue's nav expects links in one of two formats:
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+								1. Hash link (scrolls to a different section within the page)
 
-</head>
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
 
-<body>
+								2. Standard link (sends the user to another page/site)
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/j562d" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/jimmy-dong/" class="icon fa-linkedin"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<!-- <h2 class="alt">Welcome to my portfolio!</h2> -->
+								<p>Web development combines two things that I love: being creative and solving problems. I love being presented a challenge, figuring out how to tackle it, and ultimately delivering a solution. With a background in accounting, I bring a detail-oriented mindset to web development.</p>
+							</header>
+
+	<!-- 						<footer>
+								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+							</footer> -->
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
 
 
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
-        <div class="container">
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Jimmy Dong</h1>
-                        <h3>Portfolio</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/j562d" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
-                    </div>
+							<div class="row">
+								<div class="3u 12u$(mobile)">
+									<article class="item">
+										<a href="http://kwikemart-online.heroku.com/" class="image fit"><img src="images/kwik.jpg" alt="" /></a>
+										<header>
+											<h3>Kwik-E-Mart</h3>
+                      <p> An online store based on "The Simpsons." Built with the MEAN stack, customers can browse and add items to their cart, checkout, and view their order history.</p>
+										</header>
+									</article>
+<!-- 									<article class="item">
+										<a href="https://sfvdojo.herokuapp.com/combos" class="image fit"><img src="images/dojo.jpg" alt="" /></a>
+										<header>
+											<h3>Street Fighter V Dojo</h3>
+                      <p>A community site for the video game "Street Fighter V." Created with Ruby on Rails, it's an app where users can browse and share combos with each other. Users can also favorite and comment on posts.</p>
+										</header>
+									</article> -->
+								</div>
+
+                <div class="3u 12u$(mobile)">
+                                  <article class="item">
+                                    <a href="https://sfvdojo.herokuapp.com/combos" class="image fit"><img src="images/dojo.jpg" alt="" /></a>
+                                    <header>
+                                      <h3>Street Fighter V Dojo</h3>
+                                      <p>A community site for the video game "Street Fighter V." Created with Ruby on Rails, it's an app where users can browse and share combos with each other. Users can also favorite and comment on posts.</p>
+                                    </header>
+                                  </article>
                 </div>
-            </div>
 
-        </div>
-        <!-- /.container -->
+								<div class="3u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="http://i.imgur.com/47jkjbf.jpg" alt="" /></a>
+										<header>
+											<h3>Simom Memory Game</h3>
+                      <p>The classic Simon memory game built with JavaScript. Users must correctly repeat the computer's pattern of inputs.</p>
+										</header>
+									</article>
+<!-- 									<article class="item">
+										<a href="https://my-pantry-app.herokuapp.com/" class="image fit"><img src="http://i.imgur.com/XiMLRYZ.png" alt="" /></a>
+										<header>
+											<h3>Pantry</h3>
+                      <p>Pantry is a recipe finder that allows users to search by ingredients. Built with a team, my role was to implement the third-party API into the web application.</p>
+										</header>
+									</article> -->
+								</div>
 
-    </div>
-    <!-- /.intro-header -->
-
-    <!-- Page Content -->
-
-  <a  name="services"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Kwik-E-Mart</h2>
-                    <p class="lead">An online store based on "The Simpsons." Built with the MEAN stack, customers can browse and add items to their cart, checkout, and view their order history.</p>
+                <div class="3u 12u$(mobile)">
+                          <article class="item">
+                            <a href="https://my-pantry-app.herokuapp.com/" class="image fit"><img src="http://i.imgur.com/XiMLRYZ.png" alt="" /></a>
+                            <header>
+                              <h3>Pantry</h3>
+                              <p>Pantry is a recipe finder that allows users to search by ingredients. Built with a team, my role was to implement the third-party API into the web application.</p>
+                            </header>
+                          </article>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/kwik.jpg" alt="">
-                </div>
-            </div>
+<!-- 								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<header>
+											<h3>Dolor Penatibus</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<header>
+											<h3>Orci Convallis</h3>
+										</header>
+									</article>
+								</div> -->
+							</div>
 
-        </div>
-        <!-- /.container -->
+						</div>
+					</section>
 
-    </div>
-    <!-- /.content-section-a -->
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
 
-    <div class="content-section-b">
+							<header>
+								<h2>About Me</h2>
+							</header>
 
-        <div class="container">
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Street Fighter V Dojo</h2>
-                    <p class="lead">A community site for the video game "Street Fighter V." It's an app where users can browse and share combos with each other. Users can also favorite and comment on posts.</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dojo.jpg" alt="">
-                </div>
-            </div>
+							<p>I am a Full-Stack Web Developer living in Orange County, CA.</p>
 
-        </div>
-        <!-- /.container -->
+						</div>
+					</section>
 
-    </div>
-    <!-- /.content-section-b -->
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
 
-    <div class="content-section-a">
+							<header>
+								<h2>Contact</h2>
+							</header>
 
-        <div class="container">
 
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Simon Memory Game</h2>
-                    <p class="lead">The classic Simon memory game built with JavaScript. Users must correctly repeat the computer's pattern of inputs.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="http://i.imgur.com/47jkjbf.jpg" alt="">
-                </div>
-            </div>
+							<form method="post" action="contact.php">
+								<div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
 
-        </div>
-        <!-- /.container -->
+						</div>
+					</section>
 
-    </div>
-    <!-- /.content-section-a -->
+			</div>
 
-  <a  name="contact"></a>
-    <div class="banner">
 
-        <div class="container">
 
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
-
+	</body>
 </html>
