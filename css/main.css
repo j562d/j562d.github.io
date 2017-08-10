@@ -1,0 +1,58 @@
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.section {
+  margin: 10px 50px 10px 50px;
+}
+
+.parallax {
+  opacity: .8;
+}
+
+.intro {
+  color: black;
+  opacity: .9;
+  font-weight: bold;
+  text-shadow: 2px 2px #BFBCBC;
+  font-size: 100px;
+  text-align: center;
+  margin: 100px;
+}
+
+
+.transparentBG {
+  background-color: rgba(0,0,0,0);
+}
+
+nav {
+  padding: 0px 10px 10px 10px;
+  color: black !important;
+}
+
+a {
+  color: black !important;
+  font-size: 30px !important;
+}
+
+.g {
+  display: none;
+}
+
+.pimage {
+  height: 350px !important;
+  margin: 0px 50px 0px 50px;
+  border: 5px solid black;
+}
+
+#contact {
+  text-align: center;
+  background-color: #e5d5c6;
+  padding: 15px;
+}
+
+.btn {
+  background-color: white !important;
+  font-size: 20px !important;
+}
