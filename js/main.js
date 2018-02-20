@@ -18,5 +18,29 @@ $(document).ready(function(){
 
 
 $(document).ready(function() {
-       $(".f").fadeIn(2500);
+       $(".g").fadeIn(2500);
 });
+
+
+
+  //    $(window).load(function() {
+  //    $('.loading').hide();
+  // });
+
+        setTimeout(function() {
+          $('.loading').hide();
+        }, 1500);
+
+        setTimeout(function() {
+          $('.everything').fadeIn(600);
+          $('.everything').show();
+        }, 1800);
+
+
+// $(document).ready(function() {
+
+// $('body').css('display', 'none');
+
+// $('body').fadeIn(1000);
+
+

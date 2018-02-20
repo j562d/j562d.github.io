@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Jimmy Dong</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Lato:100|Nixie+One|Source+Sans+Pro:200" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="icon" href="http://i.imgur.com/fdXWDr1.jpg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
@@ -40,19 +40,50 @@
  -->
 
 
+<div class="sk-folding-cube loading">
+  <div class="sk-cube1 sk-cube"></div>
+  <div class="sk-cube2 sk-cube"></div>
+  <div class="sk-cube4 sk-cube"></div>
+  <div class="sk-cube3 sk-cube"></div>
+</div>
 
 
 
 
 
-    <div class="parallax-container">
-      <div class="parallax">
-        <img src="https://media.giphy.com/media/YC5CMmeqKipJC/giphy-downsized-large.gif">
-        <p class="intro">Jimmy Dong <br> Web Developer <br> </p>
-      </div>
-    </div>
+<div class="everything">
 
  <nav class="transparentBG">
+   <div class="nav-wrapper transparentBG">
+     <ul id="nav-mobile" class="right">
+       <!-- <li><a href="#about">About Me</a></li> -->
+       <li><a href="#skills">Skills</a></li>
+       <li><a href="#projects">Projects</a></li>
+       <!-- <li><a href="#contact">Contact Me</a></li> -->
+     </ul>
+   </div>
+ </nav>
+
+<div class="jumbotron jumbotron-fluid mainjumbo">
+  <div class="container">
+    <h1 class="display-2">Jimmy Dong: Web Developer</h1>
+    <p class="lead">I am a Full-Stack Web Developer based in Orange County, CA. I am pursuing my passion of web development because it combines two things that I love: creativity and problem solving. I love being presented a challenge, figuring out how to tackle it, and then delivering creative solutions. With a background in accounting, I bring a detail-oriented mindset to web development. I look forward to utilizing my skills by creating functional web applications</p>
+    <p class="lead"> Contact: <br> Email: jndong88@gmail.com
+      <br>LinkedIn: <a href="https://www.linkedin.com/in/jimmy-dong/" target="_blank">https://www.linkedin.com/in/jimmy-dong/</a>
+      <br>Github: <a href="https://github.com/j562d" target="_blank">https://github.com/j562d</a>
+  </div>
+</div>
+
+
+
+<!--     <div class="parallax-container">
+      <div class="parallax">
+        <img src="http://wallpaper-gallery.net/images/hd-images-wallpaper/hd-images-wallpaper-13.jpg">
+        <p class="intro">Jimmy Dong <br> Web Developer <br> </p>
+      </div>
+    </div> -->
+
+<!--  <nav class="transparentBG">
    <div class="nav-wrapper transparentBG">
      <ul id="nav-mobile" class="right">
        <li><a href="#about">About Me</a></li>
@@ -61,9 +92,9 @@
        <li><a href="#contact">Contact Me</a></li>
      </ul>
    </div>
- </nav>
+ </nav> -->
 
-
+<!--
     <div class="section white f g" id="about">
       <div class="row container">
         <h2 class="header">About Me</h2>
@@ -87,26 +118,68 @@
         <h4><u>Other</u> </h4>
         APIs, OAuth, npm, Heroku, Moongoose
         </p>
-      </div>
-      <div class="row container" id="projects">
-      <h2 class="header">Projects</h2>
+      </div> -->
+
+
+
+    <div class="everything">
+    <div class="jumbotron jumbotron-fluid jumbo2" id="skills">
+      <div class="container">
+      <h2 class="header">Technical Skills</h2>
+      <p class="grey-text text-darken-3 lighten-3">
+       <table>
+       <tr>
+       <th><u>Front-End Development</u> </th>
+       <th><u>Languages</u> </th>
+       <th><u>Frameworks</u> </th>
+       </tr>
+       <tr>
+       <td>HTML5, CSS3, jQuery, AJAX</td>
+       <td>JavaScript, NodeJS, Ruby</td>
+       <td>AngularJS, Rails, Express, Bootstrap, Materialize</td>
+       </tr>
+       <tr>
+       <th><u>Databases</u> </th>
+       <th><u>Methodology</u> </th>
+       <th><u>Other</u> </th>
+       </tr>
+       <tr>
+       <td>MongoDB, PostgreSQL</td>
+       <td>MVC framework, OOP, RESTful, Agile Scrum</td>
+       <td>Github, Git, APIs, OAuth, npm, Heroku, Moongoose</td>
+       </tr>
+
+      <!--  <h4><u>Other</u> </h4>
+       APIs, OAuth, npm, Heroku, Moongoose -->
+       </table>
+      </p>
       </div>
     </div>
-    <div class="parallax-container pimage1" id="projects">
-      <div><img src="http://wallpapersdsc.net/wp-content/uploads/2015/11/291.jpg"></div>
+
+
+
+
+
+      <div class="row container" id="projects">
+ <!--      <h2 class="header">Projects</h2> -->
+      </div>
+    </div>
+    <div class="parallax-container pimage2" id="projects">
+      <div><img class="simp" src="http://wallpapersdsc.net/wp-content/uploads/2015/11/291.jpg"></div>
       <p class="intro"></p>
     </div>
-    <div class="section">
+    <div class="section white">
     <div class="row container">
       <h1 class="header">Kwik-E-Mart</h1>
       <p class="grey-text text-darken-3 lighten-3">An online store based on "The Simpsons." Built with the MEAN stack, customers can browse and add items to their cart, checkout, and view their order history.</p>
       <p><u>Technologies Used:</u> <br> MongoDB | Express | AngularJS | Node.js  </p>
+      <a class="waves-effect waves-light btn" href="kwikemart.html">Read More</a>
       <a class="waves-effect waves-light btn" href="http://kwikemart-online.herokuapp.com/" target="_blank">View Project</a>
       <a class="waves-effect waves-light btn" href="https://github.com/j562d/kwik-e-mart" target="_blank">Github</a>
     </div>
     </div>
   <div class="parallax-container pimage2">
-    <div><img src="https://images5.alphacoders.com/559/559865.jpg"></div>
+    <div><img class="simp" src="https://images5.alphacoders.com/559/559865.jpg"></div>
     <p class="intro"></p>
   </div>
   <div class="section white">
@@ -114,12 +187,13 @@
     <h1 class="header">Street Fighter V Dojo</h1>
     <p class="grey-text text-darken-3 lighten-3">A community site for the video game "Street Fighter V." Created with Ruby on Rails, it's an app where users can browse and share combos with each other. Users can also favorite and comment on posts.</p>
     <p><u>Technologies Used:</u> <br> Ruby | Rails | PostgreSQL   </p>
+    <a class="waves-effect waves-light btn" href="sfvdojo.html">Read More</a>
     <a class="waves-effect waves-light btn" href="https://sfvdojo.herokuapp.com/combos" target="_blank">View Project</a>
     <a class="waves-effect waves-light btn" href="https://github.com/j562d/street_fighter" target="_blank">Github</a>
   </div>
   </div>
-  <div class="parallax-container pimage1">
-    <div><img src="https://i.imgur.com/Kbisir0.jpg"></div>
+  <div class="parallax-container pimage2">
+    <div><img class="simp" src="https://i.imgur.com/Kbisir0.jpg"></div>
     <p class="intro"></p>
   </div>
   <div class="section white">
@@ -127,19 +201,21 @@
     <h1 class="header">Pantry</h1>
     <p class="grey-text text-darken-3 lighten-3">Pantry is a recipe finder that allows users to search by ingredients. Built with a team, my role was to implement the third-party API into the web application.</p>
     <p><u>Technologies Used:</u> <br> MongoDB | Express | Node.js | JavaScript | Mongoose    </p>
+    <a class="waves-effect waves-light btn" href="pantry.html">Read More</a>
     <a class="waves-effect waves-light btn" href="https://my-pantry-app.herokuapp.com/" target="_blank">View Project</a>
     <a class="waves-effect waves-light btn" href="https://github.com/j562d/pantry" target="_blank">Github</a>
   </div>
   </div>
   <div class="parallax-container pimage2">
-    <div><img src="https://i.ytimg.com/vi/vLi1qnRmpe4/maxresdefault.jpg"></div>
+    <div><img class="simp" src="https://i.ytimg.com/vi/vLi1qnRmpe4/maxresdefault.jpg"></div>
     <p class="intro"></p>
   </div>
   <div class="section white">
   <div class="row container">
-    <h2 class="header">Simon</h2>
+    <h1 class="header">Simon</h1>
     <p class="grey-text text-darken-3 lighten-3">The classic Simon memory game built with JavaScript. Users must correctly repeat the computer's pattern of inputs.</p>
     <p><u>Technologies Used: </u><br>  JavaScript | HTML | CSS     </p>
+    <a class="waves-effect waves-light btn" href="simon.html">Read More</a>
     <a class="waves-effect waves-light btn" href="https://j562d.github.io/Project-1-Simon/" target="_blank">View Project</a>
     <a class="waves-effect waves-light btn" href="https://github.com/j562d/Project-1-Simon" target="_blank">Github</a>
   </div>
@@ -199,12 +275,15 @@
     <div class="parallax-container">
       <div class="parallax"><img src="http://thedreamwithinpictures.com/wp-content/uploads/2016/04/efb23__131057228763874153_c-Kei-Nomiyama-Japan-Open-Photographer-of-the-Year-2016-Sony-World-Photography-Awards-800x533.jpg"></div>
     </div> -->
+
+<!--
 <div id="contact">
   <h1> <u>Contact Me</u> </h1>
   <p>jndong88@gmail.com</p>
   <p><a href="https://www.linkedin.com/in/jimmy-dong/" target="_blank">  LinkedIn</a></p>
   <p><a href="https://github.com/j562d" target="_blank">  GitHub</a></p>
 </div>
+</div> -->
 
   <script src="js/materialize.js"></script>
 
