@@ -15,7 +15,7 @@
     /*margin:15px 30px 0px 30px;*/
     /*border-radius:10px;*/
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(http://wallpaper-gallery.net/images/hd-images-wallpaper/hd-images-wallpaper-13.jpg);
+    url(https://i.imgur.com/kok21w2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -27,7 +27,7 @@
 
 .jumbo2 {
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(http://www.hd-freewallpapers.com/3d-wallpapers/city-hd-wallpapers-free-download-3D.jpg);
+    url(https://i.imgur.com/yaNCKZr.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white !important;
@@ -39,7 +39,7 @@
 
 .simpjumbo {
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(http://wallpapersdsc.net/wp-content/uploads/2015/11/291.jpg);
+    url(https://i.imgur.com/pH6fV22.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white !important;
@@ -51,7 +51,7 @@
 
 .sfjumbo {
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(https://images5.alphacoders.com/559/559865.jpg);
+    url(https://i.imgur.com/UWeADLk.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white !important;
@@ -75,7 +75,7 @@
 
 .simonjumbo {
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(https://i.ytimg.com/vi/vLi1qnRmpe4/maxresdefault.jpg);
+    url(https://i.imgur.com/oyevT2R.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white !important;
@@ -177,9 +177,9 @@ a {
       margin: 0px !important;
     }
 
-    .mainjumbo {
+    .jumbotron, .mainjumbo {
         background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-        url(http://wallpaper-gallery.net/images/hd-images-wallpaper/hd-images-wallpaper-13.jpg);
+        url(https://i.imgur.com/kok21w2.jpg);
         background-repeat: no-repeat;
         color:white !important;
         background-size: cover;
@@ -189,7 +189,7 @@ a {
 
     .jumbo2 {
         background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-        url(http://www.hd-freewallpapers.com/3d-wallpapers/city-hd-wallpapers-free-download-3D.jpg);
+        url(https://i.imgur.com/yaNCKZr.jpg);
         background-repeat: no-repeat;
         color:white !important;
         background-size: cover;

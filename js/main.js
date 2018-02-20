@@ -22,6 +22,7 @@ $(document).ready(function() {
        $(".sfjumbo").hide();
        $(".pantryjumbo").hide();
        $(".simonjumbo").hide();
+       $(".simp").hide();
 });
 
 $(document).ready(function() {
@@ -55,8 +56,6 @@ $(document).ready(function() {
 $(window).scroll(function() {
 if ($(this).scrollTop()> 800) {
 $('.faded1').fadeIn(1400);
-} else {
-$('.simp').hide();
 }
 });
 
