@@ -164,7 +164,7 @@ a {
   font-size: 20px !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .pimage1, .pimage2, .row {
       float: none;
       margin: 0px 0px 90px 0px !important;
@@ -177,9 +177,7 @@ a {
       margin: 0px !important;
     }
 
-    .jumbotron, .mainjumbo{
-        /*margin:15px 30px 0px 30px;*/
-        /*border-radius:10px;*/
+    .jumbotron, .mainjumbo {
         background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
         url(http://wallpaper-gallery.net/images/hd-images-wallpaper/hd-images-wallpaper-13.jpg);
         background-repeat: no-repeat;
@@ -197,7 +195,6 @@ a {
         background-size: cover;
         background-position: center;
         height:440px;
-        margin-top: -40px;
     }
 }
 
