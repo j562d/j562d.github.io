@@ -177,13 +177,13 @@ a {
       margin: 0px !important;
     }
 
-    .jumbotron, .mainjumbo {
+    .mainjumbo {
         background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
         url(http://wallpaper-gallery.net/images/hd-images-wallpaper/hd-images-wallpaper-13.jpg);
         background-repeat: no-repeat;
+        color:white !important;
         background-size: cover;
         background-position: center;
-        color:white !important;
         height:740px;
     }
 
