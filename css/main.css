@@ -165,8 +165,14 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-    .pimage1, .pimage2 {
+    .pimage1, .pimage2, .row {
       float: none;
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+
+    .lead {
+      margin: 0px !important;
     }
 }
 
