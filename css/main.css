@@ -86,6 +86,18 @@
 }
 
 
+.ecjumbo {
+    background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
+    url(https://i.imgur.com/1UNRzuY.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white !important;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 1000px;
+}
+
 /*.parallax {
 background: linear-gradient(
                      rgba(20,20,20, .7),

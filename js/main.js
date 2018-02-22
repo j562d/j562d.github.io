@@ -23,6 +23,7 @@ $(document).ready(function() {
        $(".pantryjumbo").hide();
        $(".simonjumbo").hide();
        $(".simp").hide();
+       $(".ecjumbo").hide();
 });
 
 $(document).ready(function() {
@@ -30,6 +31,7 @@ $(document).ready(function() {
        $(".sfjumbo").fadeIn(2000);
        $(".pantryjumbo").fadeIn(2000);
        $(".simonjumbo").fadeIn(2000);
+       $(".ecjumbo").fadeIn(2000);
 });
 
   //    $(window).load(function() {
@@ -52,21 +54,27 @@ $(document).ready(function() {
 
 // $('body').fadeIn(1000);
 
+$(window).scroll(function() {
+if ($(this).scrollTop()> 600) {
+$('.faded0').fadeIn(1400);
+}
+});
+
 
 $(window).scroll(function() {
-if ($(this).scrollTop()> 800) {
+if ($(this).scrollTop()> 1000) {
 $('.faded1').fadeIn(1400);
 }
 });
 
 $(window).scroll(function() {
-if ($(this).scrollTop()> 1400) {
+if ($(this).scrollTop()> 1600) {
 $('.faded2').fadeIn(1400);
 }
 });
 
 $(window).scroll(function() {
-if ($(this).scrollTop()> 2000) {
+if ($(this).scrollTop()> 2200) {
 $('.faded3').fadeIn(1400);
 }
 });
