@@ -15,7 +15,7 @@
     /*margin:15px 30px 0px 30px;*/
     /*border-radius:10px;*/
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(https://i.imgur.com/kok21w2.jpg);
+    url(../images/bike.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -27,7 +27,7 @@
 
 .jumbo2 {
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(https://i.imgur.com/yaNCKZr.jpg);
+    url(../images/fair.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white !important;
@@ -39,7 +39,7 @@
 
 .simpjumbo {
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(https://i.imgur.com/pH6fV22.jpg);
+    url(../images/simpsons.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white !important;
@@ -51,7 +51,7 @@
 
 .sfjumbo {
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(https://i.imgur.com/UWeADLk.jpg);
+    url(../images/sfv.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white !important;
@@ -63,7 +63,7 @@
 
 .pantryjumbo {
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(https://i.imgur.com/Kbisir0.jpg);
+    url(../images/pantry.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white !important;
@@ -75,7 +75,7 @@
 
 .simonjumbo {
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(https://i.imgur.com/oyevT2R.jpg);
+    url(../images/simon.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white !important;
@@ -88,7 +88,7 @@
 
 .ecjumbo {
     background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-    url(https://i.imgur.com/LaoAigE.jpg);
+    url(../images/ecommerce.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color:white !important;
@@ -191,7 +191,7 @@ a {
 
     .jumbotron, .mainjumbo {
         background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-        url(https://i.imgur.com/kok21w2.jpg);
+        url(../images/bike.jpg);
         background-repeat: no-repeat;
         color:white !important;
         background-size: cover;
@@ -201,7 +201,7 @@ a {
 
     .jumbo2 {
         background:linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
-        url(https://i.imgur.com/yaNCKZr.jpg);
+        url(../images/fair.jpg);
         background-repeat: no-repeat;
         color:white !important;
         background-size: cover;
